@@ -73,7 +73,7 @@ a {
         &:after {
             content: '';
             height: 2px;
-            background: white;
+            background: #0483ee;
             position: absolute;
             left: 0;
             right: 0;
@@ -85,6 +85,7 @@ a {
         }
     }
     &:hover{
+        color: #0483ee;
         span:after{
             transform: scaleX(1);
             opacity: 1;
